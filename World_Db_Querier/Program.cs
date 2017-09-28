@@ -5,7 +5,7 @@ namespace World_Db_Querier
 {
     class Program
     {
-        static string version = "0.2";
+        static string version = "0.3";
 
         static void TotalCountry()
         {
