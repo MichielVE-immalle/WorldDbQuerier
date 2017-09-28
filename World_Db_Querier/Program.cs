@@ -29,13 +29,13 @@ namespace World_Db_Querier
 
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "SELECT count(*) FROM Artiesten";
+            cmd.CommandText = "SELECT count(*) FROM world.Country";
 
             conn.Open();
 
             int aantalArtiesten = Convert.ToInt32(cmd.ExecuteScalar());
 
-            Console.WriteLine("Aantal artiesten : {0}", aantalArtiesten);
+            Console.WriteLine("Aantal landen : {0}", aantalArtiesten);
         }
     }
 }
