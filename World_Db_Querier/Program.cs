@@ -33,9 +33,9 @@ namespace World_Db_Querier
 
             conn.Open();
 
-            int aantalArtiesten = Convert.ToInt32(cmd.ExecuteScalar());
+            int output = Convert.ToInt32(cmd.ExecuteScalar());
 
-            Console.WriteLine("Aantal landen : {0}", aantalArtiesten);
+            Console.WriteLine("Aantal landen : {0}", output);
         }
     }
 }
