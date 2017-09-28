@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "World_Db_Querier": {
+      "commandName": "Project"
+    },
+    "World_Db_Querier -v": {
+      "commandName": "Executable",
+      "commandLineArgs": "-v"
+    }
+  }
+}
