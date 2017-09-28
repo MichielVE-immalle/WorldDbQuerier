@@ -4,7 +4,7 @@
       "commandName": "Project"
     },
     "World_Db_Querier -v": {
-      "commandName": "Executable",
+      "commandName": "Project",
       "commandLineArgs": "-v"
     }
   }
